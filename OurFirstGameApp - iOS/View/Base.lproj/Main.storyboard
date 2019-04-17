@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OurFirstGameApp___iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="OurFirstGameApp___iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Welcome Screen">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="-82.400000000000006" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--How To Play View Controller-->
         <scene sceneID="gzi-r3-Sbv">
             <objects>
-                <viewController id="Qj1-t9-sWR" sceneMemberID="viewController">
+                <viewController id="Qj1-t9-sWR" customClass="HowToPlayViewController" customModule="OurFirstGameApp___iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zlw-0q-ZHL" userLabel="How To Play">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="756" y="-572"/>
         </scene>
-        <!--View Controller-->
+        <!--Attributes View Controller-->
         <scene sceneID="997-df-F11">
             <objects>
-                <viewController id="xVc-Fr-304" sceneMemberID="viewController">
+                <viewController id="xVc-Fr-304" customClass="AttributesViewController" customModule="OurFirstGameApp___iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B3f-6H-moo" userLabel="Attributes">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="777" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Story Screen View Controller-->
         <scene sceneID="Cvd-1f-H88">
             <objects>
-                <viewController id="4oP-ga-ASC" sceneMemberID="viewController">
+                <viewController id="4oP-ga-ASC" customClass="StoryScreenViewController" customModule="OurFirstGameApp___iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QpE-25-f4v" userLabel="Story">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,8 +177,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="869-sW-E3G"/>
         <segue reference="Lx8-19-AfX"/>
-        <segue reference="7uy-VE-Tje"/>
+        <segue reference="sPo-Uf-Yjz"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		113ADAA622676AD7008A149D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADAA522676AD7008A149D /* AppDelegate.swift */; };
-		113ADAA822676AD7008A149D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADAA722676AD7008A149D /* ViewController.swift */; };
+		113ADAA822676AD7008A149D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADAA722676AD7008A149D /* WelcomeViewController.swift */; };
 		113ADAAB22676AD7008A149D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113ADAA922676AD7008A149D /* Main.storyboard */; };
 		113ADAAD22676AD9008A149D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113ADAAC22676AD9008A149D /* Assets.xcassets */; };
 		113ADAB022676AD9008A149D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113ADAAE22676AD9008A149D /* LaunchScreen.storyboard */; };
 		113ADABB22676B7E008A149D /* StoryLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADABA22676B7E008A149D /* StoryLine.swift */; };
+		113ADABD22677A37008A149D /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADABC22677A37008A149D /* Answers.swift */; };
+		113ADABF22677A54008A149D /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADABE22677A54008A149D /* Attributes.swift */; };
+		113ADAC122677C1D008A149D /* AttributesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADAC022677C1D008A149D /* AttributesViewController.swift */; };
+		113ADAC322677C36008A149D /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADAC222677C36008A149D /* HowToPlayViewController.swift */; };
+		113ADAC522677C56008A149D /* StoryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ADAC422677C56008A149D /* StoryScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		113ADAA222676AD7008A149D /* OurFirstGameApp - iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OurFirstGameApp - iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113ADAA522676AD7008A149D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		113ADAA722676AD7008A149D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		113ADAA722676AD7008A149D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		113ADAAA22676AD7008A149D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		113ADAAC22676AD9008A149D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113ADAAF22676AD9008A149D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		113ADAB122676AD9008A149D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113ADABA22676B7E008A149D /* StoryLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryLine.swift; sourceTree = "<group>"; };
+		113ADABC22677A37008A149D /* Answers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
+		113ADABE22677A54008A149D /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		113ADAC022677C1D008A149D /* AttributesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesViewController.swift; sourceTree = "<group>"; };
+		113ADAC222677C36008A149D /* HowToPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewController.swift; sourceTree = "<group>"; };
+		113ADAC422677C56008A149D /* StoryScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +69,6 @@
 				113ADAB722676AFC008A149D /* Model */,
 				113ADAB922676B0D008A149D /* Controller */,
 				113ADAB822676B05008A149D /* View */,
-				113ADAA522676AD7008A149D /* AppDelegate.swift */,
-				113ADAAE22676AD9008A149D /* LaunchScreen.storyboard */,
 				113ADAB122676AD9008A149D /* Info.plist */,
 			);
 			path = "OurFirstGameApp - iOS";
@@ -70,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				113ADABA22676B7E008A149D /* StoryLine.swift */,
+				113ADABC22677A37008A149D /* Answers.swift */,
+				113ADABE22677A54008A149D /* Attributes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -78,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				113ADAA922676AD7008A149D /* Main.storyboard */,
+				113ADAAE22676AD9008A149D /* LaunchScreen.storyboard */,
 				113ADAAC22676AD9008A149D /* Assets.xcassets */,
 			);
 			path = View;
@@ -86,7 +97,11 @@
 		113ADAB922676B0D008A149D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				113ADAA722676AD7008A149D /* ViewController.swift */,
+				113ADAA522676AD7008A149D /* AppDelegate.swift */,
+				113ADAA722676AD7008A149D /* WelcomeViewController.swift */,
+				113ADAC022677C1D008A149D /* AttributesViewController.swift */,
+				113ADAC222677C36008A149D /* HowToPlayViewController.swift */,
+				113ADAC422677C56008A149D /* StoryScreenViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,8 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				113ADABB22676B7E008A149D /* StoryLine.swift in Sources */,
-				113ADAA822676AD7008A149D /* ViewController.swift in Sources */,
+				113ADAA822676AD7008A149D /* WelcomeViewController.swift in Sources */,
+				113ADAC522677C56008A149D /* StoryScreenViewController.swift in Sources */,
 				113ADAA622676AD7008A149D /* AppDelegate.swift in Sources */,
+				113ADAC322677C36008A149D /* HowToPlayViewController.swift in Sources */,
+				113ADABF22677A54008A149D /* Attributes.swift in Sources */,
+				113ADABD22677A37008A149D /* Answers.swift in Sources */,
+				113ADAC122677C1D008A149D /* AttributesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89685536Y6;
 				INFOPLIST_FILE = "OurFirstGameApp - iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89685536Y6;
 				INFOPLIST_FILE = "OurFirstGameApp - iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
