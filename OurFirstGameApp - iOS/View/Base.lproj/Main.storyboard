@@ -112,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCE-f0-FY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756" y="134"/>
+            <point key="canvasLocation" x="777" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cvd-1f-H88">
@@ -158,6 +158,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFc-ms-zGq">
+                                <rect key="frame" x="37" y="20" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <segue destination="xVc-Fr-304" kind="show" id="Lx8-19-AfX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="T0e-7o-el3"/>
@@ -165,10 +173,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AS-L8-9e9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1516" y="135.38230884557723"/>
+            <point key="canvasLocation" x="1719" y="134"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sPo-Uf-Yjz"/>
+        <segue reference="869-sW-E3G"/>
+        <segue reference="Lx8-19-AfX"/>
+        <segue reference="7uy-VE-Tje"/>
     </inferredMetricsTieBreakers>
 </document>
